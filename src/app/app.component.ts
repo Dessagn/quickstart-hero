@@ -88,12 +88,11 @@ const HEROES: Hero[] = [
   `,
 })
 export class AppComponent  { 
-  title = 'Tour of Heroes';
-  selectedHero: Hero;
-
-  heroes = HEROES;
-
-  onSelect(hero: Hero): void {
-  this.selectedHero = hero;
-}
+    title = 'Tour of Heroes';  
+    heroes = HEROES;
+    
+    selectedHero: Hero;  
+    onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 }
