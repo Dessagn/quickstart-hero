@@ -3,13 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from "./hero-detail.component";
 
 @NgModule({
   imports:[ 
     BrowserModule, FormsModule 
     ],
   declarations:[ 
-    AppComponent 
+    AppComponent, HeroDetailComponent
     ],
   bootstrap:[ 
     AppComponent 
